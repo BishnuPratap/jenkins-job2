@@ -1,8 +1,8 @@
 pipeline {
 
-  agent ( 
+  agent {
 	  label 'linux_slave' 
-  )
+	}
 	
   tools {
     jdk "JAVA_HOME_LINUX"
